@@ -1,0 +1,17 @@
+Spring:
+  mail:
+    host: smtp.gmail.com
+    username: thearaholishit@gmail.com
+    password: ygtoezdhktwwucco
+    port: 587
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+            required: true
+server:
+  port: 8081
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
